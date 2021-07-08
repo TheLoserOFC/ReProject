@@ -1,0 +1,30 @@
+﻿  API.cpp
+  AutoLogin.cpp
+c:\users\thegz\desktop\reloader\api\autologin.cpp(10): error C2653: 'AUTH': não é um nome de classe ou de namespace
+c:\users\thegz\desktop\reloader\api\autologin.cpp(37): error C2653: 'AUTH': não é um nome de classe ou de namespace
+c:\users\thegz\desktop\reloader\api\autologin.cpp(60): error C2653: 'AUTH': não é um nome de classe ou de namespace
+c:\users\thegz\desktop\reloader\api\autologin.cpp(60): error C3861: 'AuthUser': identificador não encontrado
+c:\users\thegz\desktop\reloader\api\autologin.cpp(67): error C2653: 'AUTH': não é um nome de classe ou de namespace
+c:\users\thegz\desktop\reloader\api\autologin.cpp(67): error C3861: 'AuthUser': identificador não encontrado
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+  main.cpp
+c:\users\thegz\desktop\reloader\main.h(5): fatal error C1083: Não é possível abrir arquivo incluir: 'D3dx9tex.h': No such file or directory
+  3way.cpp
+  adler32.cpp
+  algebra.cpp
+  algparam.cpp
+  allocate.cpp
+  arc4.cpp
+  aria.cpp
+  ariatab.cpp
+  aria_simd.cpp
+  asn.cpp
+  authenc.cpp
+  Gerando Código...
+  Compilando...
+  base32.cpp

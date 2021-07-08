@@ -1,0 +1,1318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="imgui-docking\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui-docking\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="API\API.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\mmp\injector\inject.cpp">
+      <Filter>Utils\mmp\injector</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\3way.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\adler32.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\algebra.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\algparam.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\allocate.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\arc4.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\aria.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\ariatab.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\aria_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\asn.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\authenc.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\base32.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\base64.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\basecode.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\bench1.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\bench2.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\bench3.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\bfinit.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\blake2.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\blake2b_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\blake2s_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\blowfish.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\blumshub.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\camellia.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\cast.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\casts.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\cbcmac.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\ccm.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\chacha.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\chachapoly.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\chacha_avx.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\chacha_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\cham.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\cham_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\channels.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\cmac.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\cpu.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\crc.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\crc_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\cryptlib.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\darn.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\datatest.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\default.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\des.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\dessp.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\dh.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\dh2.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\dll.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\dlltest.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\donna_32.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\donna_64.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\donna_sse.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\dsa.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\eax.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\ec2n.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\eccrypto.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\ecp.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\elgamal.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\emsa2.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\eprecomp.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\esign.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\files.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\filters.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\fips140.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\fipsalgt.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\fipstest.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\gcm.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\gcm_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\gf256.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\gf2n.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\gf2n_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\gf2_32.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\gfpcrypt.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\gost.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\gzip.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\hc128.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\hc256.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\hex.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\hight.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\hmac.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\hrtimer.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\ida.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\idea.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\integer.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\iterhash.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\kalyna.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\kalynatab.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\keccak.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\keccak_core.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\keccak_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\lea.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\lea_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\luc.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\mars.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\marss.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\md2.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\md4.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\md5.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\misc.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\modes.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\mqueue.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\mqv.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\nbtheory.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\neon_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\oaep.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\osrng.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\padlkrng.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\panama.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\pch.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\pkcspad.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\poly1305.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\polynomi.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\ppc_power7.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\ppc_power8.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\ppc_power9.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\ppc_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\pssr.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\pubkey.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\queue.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\rabbit.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\rabin.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\randpool.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\rc2.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\rc5.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\rc6.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\rdrand.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\rdtables.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\regtest1.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\regtest2.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\regtest3.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\regtest4.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\rijndael.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\rijndael_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\ripemd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\rng.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\rsa.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\rw.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\safer.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\salsa.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\scrypt.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\seal.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\seed.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\serpent.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\sha.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\sha3.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\shacal2.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\shacal2_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\shake.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\shark.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\sharkbox.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\sha_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\simeck.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\simon.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\simon128_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\simple.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\skipjack.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\sm3.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\sm4.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\sm4_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\sosemanuk.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\speck.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\speck128_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\square.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\squaretb.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\sse_simd.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\strciphr.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\tea.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\test.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\tftables.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\threefish.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\tiger.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\tigertab.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\ttmac.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\tweetnacl.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\twofish.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat0.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat1.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat10.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat2.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat3.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat4.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat5.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat6.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat7.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat8.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat9.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\vmac.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\wake.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\whrlpool.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\xed25519.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\xtr.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\xtrcrypt.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\xts.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\zdeflate.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\zinflate.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\encrypts\CryptoPP\zlib.cpp">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="API\AutoLogin.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui-docking\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui-docking\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\curl.h">
+      <Filter>Utils\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\curlver.h">
+      <Filter>Utils\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\easy.h">
+      <Filter>Utils\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\mprintf.h">
+      <Filter>Utils\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\multi.h">
+      <Filter>Utils\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\options.h">
+      <Filter>Utils\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\stdcheaders.h">
+      <Filter>Utils\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\system.h">
+      <Filter>Utils\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\typecheck-gcc.h">
+      <Filter>Utils\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\urlapi.h">
+      <Filter>Utils\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json.hpp">
+      <Filter>Utils\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="API\API.hpp">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\mmp\injector\mmap.h">
+      <Filter>Utils\mmp\injector</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\mmp\injector\inject.h">
+      <Filter>Utils\mmp\injector</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\3way.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\adler32.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\adv_simd.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\aes.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\aes_armv4.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\algebra.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\algparam.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\allocate.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\arc4.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\argnames.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\aria.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\arm_simd.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\asn.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\authenc.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\base32.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\base64.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\basecode.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\bench.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\blake2.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\blowfish.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\blumshub.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\camellia.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\cast.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\cbcmac.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\ccm.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\chacha.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\chachapoly.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\cham.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\channels.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\cmac.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\config.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_align.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_asm.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_cpu.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_cxx.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_dll.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_int.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_misc.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_ns.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_os.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_ver.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\cpu.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\crc.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\cryptlib.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\darn.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\default.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\des.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\dh.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\dh2.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\dll.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\dmac.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\donna.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\donna_32.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\donna_64.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\donna_sse.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\drbg.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\dsa.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\eax.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\ec2n.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\eccrypto.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\ecp.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\ecpoint.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\elgamal.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\emsa2.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\eprecomp.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\esign.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\factory.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\fhmqv.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\files.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\filters.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\fips140.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\fltrimpl.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\gcm.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\gf256.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\gf2n.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\gf2_32.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\gfpcrypt.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\gost.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\gzip.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\hashfwd.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\hc128.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\hc256.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\hex.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\hight.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\hkdf.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\hmac.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\hmqv.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\hrtimer.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\ida.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\idea.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\integer.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\iterhash.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\kalyna.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\keccak.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\lea.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\lubyrack.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\luc.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\mars.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\md2.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\md4.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\md5.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\mdc.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\mersenne.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\misc.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\modarith.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\modes.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\modexppc.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\mqueue.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\mqv.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\naclite.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\nbtheory.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\nr.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\oaep.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\oids.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\osrng.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\ossig.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\padlkrng.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\panama.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\pch.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\pkcspad.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\poly1305.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\polynomi.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\ppc_simd.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\pssr.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\pubkey.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\pwdbased.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\queue.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\rabbit.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\rabin.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\randpool.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\rc2.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\rc5.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\rc6.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\rdrand.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\resource.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\rijndael.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\ripemd.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\rng.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\rsa.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\rw.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\safer.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\salsa.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\scrypt.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\seal.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\secblock.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\secblockfwd.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\seckey.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\seed.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\serpent.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\serpentp.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\sha.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\sha1_armv4.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\sha256_armv4.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\sha3.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\sha512_armv4.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\shacal2.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\shake.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\shark.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\simeck.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\simon.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\simple.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\siphash.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\skipjack.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\sm3.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\sm4.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\smartptr.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\sosemanuk.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\speck.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\square.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\stdcpp.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\strciphr.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\tea.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\threefish.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\tiger.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\trap.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\trunhash.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\ttmac.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\tweetnacl.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\twofish.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\validate.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\vmac.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\wake.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\whrlpool.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\words.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\xed25519.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\xtr.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\xtrcrypt.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\xts.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\zdeflate.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\zinflate.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\CryptoPP\zlib.h">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\encrypts\xor.hpp">
+      <Filter>Utils\encrypts</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.hpp">
+      <Filter>imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{8cf77124-bebc-471d-acac-8b9b1ffc2a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{a01b1e38-e449-4270-b2d8-c89693670d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{05ba9b8e-26ae-4924-a426-cd8b55c3ea3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\curl">
+      <UniqueIdentifier>{9600b261-0490-4fe4-a0b2-0829516591ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\json">
+      <UniqueIdentifier>{111e7a5c-4090-48be-8b6b-129db6a790e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\mmp">
+      <UniqueIdentifier>{5f7a1ffb-d91f-48fc-848b-0e62bbd04bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\mmp\injector">
+      <UniqueIdentifier>{4de27c6d-2107-4114-a9f8-de15d367d583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\encrypts">
+      <UniqueIdentifier>{30aeacca-bf40-4676-8773-819d7ff7a2d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\encrypts\CryptoPP">
+      <UniqueIdentifier>{0979cb4c-6953-4fc5-8efc-0170d4b1b9ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Utils\encrypts\CryptoPP\rdrand.asm">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </None>
+    <None Include="Utils\encrypts\CryptoPP\rdseed.asm">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </None>
+    <None Include="Utils\encrypts\CryptoPP\x64dll.asm">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </None>
+    <None Include="Utils\encrypts\CryptoPP\x64masm.asm">
+      <Filter>Utils\encrypts\CryptoPP</Filter>
+    </None>
+  </ItemGroup>
+</Project>

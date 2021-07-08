@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{82212CF7-C4EA-436C-ADD5-F7AD56122BF5}</ProjectGuid>
+    <RootNamespace>ImGui Loader Base</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>ReLoader</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>D:\curl-7.76.0\builds\x86 Debug\lib\libcurl_debug.lib;D:\curl-7.76.0\builds\x86 Debug\lib\cryptlib.lib;D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib;D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/FORCE %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>C:\Users\TheGZ\Desktop\Load\Libs\libcurl_a.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>CURL_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalUsingDirectories>%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <Optimization>MinSpace</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalOptions>/FORCE %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>C:\Users\TheGZ\Desktop\Projetos Re\ReLoader\Libs\cryptlib.lib;C:\Users\TheGZ\Desktop\Projetos Re\ReLoader\Libs\libcurl.lib;D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib;D:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>C:\Users\TheGZ\Desktop\Load\Libs\libcurl_a.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="API\API.cpp" />
+    <ClCompile Include="API\AutoLogin.cpp" />
+    <ClCompile Include="imgui-docking\imgui.cpp" />
+    <ClCompile Include="imgui-docking\imgui_demo.cpp" />
+    <ClCompile Include="imgui-docking\imgui_draw.cpp" />
+    <ClCompile Include="imgui-docking\imgui_impl_dx9.cpp" />
+    <ClCompile Include="imgui-docking\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui-docking\imgui_widgets.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\3way.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\adler32.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\algebra.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\algparam.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\allocate.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\arc4.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\aria.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\ariatab.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\aria_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\asn.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\authenc.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\base32.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\base64.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\basecode.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\bench1.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\bench2.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\bench3.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\bfinit.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\blake2.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\blake2b_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\blake2s_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\blowfish.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\blumshub.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\camellia.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\cast.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\casts.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\cbcmac.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\ccm.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\chacha.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\chachapoly.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\chacha_avx.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\chacha_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\cham.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\cham_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\channels.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\cmac.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\cpu.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\crc.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\crc_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\cryptlib.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\darn.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\datatest.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\default.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\des.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\dessp.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\dh.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\dh2.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\dll.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\dlltest.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\donna_32.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\donna_64.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\donna_sse.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\dsa.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\eax.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\ec2n.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\eccrypto.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\ecp.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\elgamal.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\emsa2.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\eprecomp.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\esign.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\files.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\filters.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\fips140.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\fipsalgt.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\fipstest.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\gcm.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\gcm_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\gf256.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\gf2n.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\gf2n_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\gf2_32.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\gfpcrypt.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\gost.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\gzip.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\hc128.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\hc256.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\hex.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\hight.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\hmac.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\hrtimer.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\ida.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\idea.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\integer.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\iterhash.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\kalyna.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\kalynatab.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\keccak.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\keccak_core.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\keccak_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\lea.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\lea_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\luc.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\mars.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\marss.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\md2.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\md4.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\md5.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\misc.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\modes.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\mqueue.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\mqv.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\nbtheory.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\neon_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\oaep.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\osrng.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\padlkrng.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\panama.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\pch.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\pkcspad.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\poly1305.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\polynomi.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\ppc_power7.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\ppc_power8.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\ppc_power9.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\ppc_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\pssr.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\pubkey.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\queue.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\rabbit.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\rabin.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\randpool.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\rc2.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\rc5.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\rc6.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\rdrand.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\rdtables.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\regtest1.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\regtest2.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\regtest3.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\regtest4.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\rijndael.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\rijndael_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\ripemd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\rng.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\rsa.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\rw.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\safer.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\salsa.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\scrypt.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\seal.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\seed.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\serpent.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\sha.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\sha3.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\shacal2.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\shacal2_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\shake.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\shark.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\sharkbox.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\sha_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\simeck.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\simon.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\simon128_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\simple.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\skipjack.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\sm3.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\sm4.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\sm4_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\sosemanuk.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\speck.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\speck128_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\square.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\squaretb.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\sse_simd.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\strciphr.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\tea.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\test.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\tftables.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\threefish.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\tiger.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\tigertab.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\ttmac.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\tweetnacl.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\twofish.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat0.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat1.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat10.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat2.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat3.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat4.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat5.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat6.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat7.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat8.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\validat9.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\vmac.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\wake.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\whrlpool.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\xed25519.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\xtr.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\xtrcrypt.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\xts.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\zdeflate.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\zinflate.cpp" />
+    <ClCompile Include="Utils\encrypts\CryptoPP\zlib.cpp" />
+    <ClCompile Include="Utils\mmp\injector\inject.cpp" />
+    <ClCompile Include="Utils\Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\json.hpp" />
+    <ClInclude Include="API\API.hpp" />
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\curl.h" />
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\curlver.h" />
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\easy.h" />
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\mprintf.h" />
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\multi.h" />
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\options.h" />
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\stdcheaders.h" />
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\system.h" />
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\typecheck-gcc.h" />
+    <ClInclude Include="D:\curl-7.76.0\builds\X86 Release\include\curl\urlapi.h" />
+    <ClInclude Include="icons.hpp" />
+    <ClInclude Include="imgui-docking\imconfig.h" />
+    <ClInclude Include="imgui-docking\imgui.h" />
+    <ClInclude Include="imgui-docking\imgui_impl_dx9.h" />
+    <ClInclude Include="imgui-docking\imgui_impl_win32.h" />
+    <ClInclude Include="imgui-docking\imgui_internal.h" />
+    <ClInclude Include="imgui-docking\imstb_rectpack.h" />
+    <ClInclude Include="imgui-docking\imstb_textedit.h" />
+    <ClInclude Include="imgui-docking\imstb_truetype.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\3way.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\adler32.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\adv_simd.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\aes.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\aes_armv4.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\algebra.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\algparam.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\allocate.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\arc4.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\argnames.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\aria.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\arm_simd.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\asn.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\authenc.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\base32.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\base64.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\basecode.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\bench.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\blake2.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\blowfish.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\blumshub.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\camellia.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\cast.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\cbcmac.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\ccm.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\chacha.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\chachapoly.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\cham.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\channels.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\cmac.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\config.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_align.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_asm.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_cpu.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_cxx.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_dll.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_int.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_misc.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_ns.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_os.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\config_ver.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\cpu.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\crc.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\cryptlib.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\darn.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\default.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\des.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\dh.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\dh2.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\dll.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\dmac.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\donna.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\donna_32.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\donna_64.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\donna_sse.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\drbg.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\dsa.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\eax.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\ec2n.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\eccrypto.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\ecp.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\ecpoint.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\elgamal.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\emsa2.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\eprecomp.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\esign.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\factory.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\fhmqv.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\files.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\filters.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\fips140.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\fltrimpl.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\gcm.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\gf256.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\gf2n.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\gf2_32.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\gfpcrypt.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\gost.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\gzip.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\hashfwd.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\hc128.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\hc256.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\hex.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\hight.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\hkdf.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\hmac.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\hmqv.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\hrtimer.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\ida.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\idea.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\integer.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\iterhash.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\kalyna.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\keccak.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\lea.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\lubyrack.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\luc.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\mars.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\md2.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\md4.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\md5.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\mdc.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\mersenne.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\misc.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\modarith.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\modes.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\modexppc.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\mqueue.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\mqv.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\naclite.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\nbtheory.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\nr.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\oaep.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\oids.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\osrng.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\ossig.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\padlkrng.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\panama.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\pch.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\pkcspad.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\poly1305.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\polynomi.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\ppc_simd.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\pssr.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\pubkey.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\pwdbased.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\queue.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\rabbit.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\rabin.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\randpool.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\rc2.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\rc5.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\rc6.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\rdrand.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\resource.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\rijndael.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\ripemd.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\rng.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\rsa.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\rw.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\safer.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\salsa.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\scrypt.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\seal.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\secblock.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\secblockfwd.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\seckey.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\seed.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\serpent.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\serpentp.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\sha.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\sha1_armv4.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\sha256_armv4.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\sha3.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\sha512_armv4.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\shacal2.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\shake.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\shark.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\simeck.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\simon.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\simple.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\siphash.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\skipjack.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\sm3.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\sm4.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\smartptr.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\sosemanuk.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\speck.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\square.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\stdcpp.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\strciphr.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\tea.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\threefish.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\tiger.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\trap.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\trunhash.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\ttmac.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\tweetnacl.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\twofish.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\validate.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\vmac.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\wake.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\whrlpool.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\words.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\xed25519.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\xtr.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\xtrcrypt.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\xts.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\zdeflate.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\zinflate.h" />
+    <ClInclude Include="Utils\encrypts\CryptoPP\zlib.h" />
+    <ClInclude Include="Utils\encrypts\xor.hpp" />
+    <ClInclude Include="Utils\mmp\injector\inject.h" />
+    <ClInclude Include="Utils\mmp\injector\mmap.h" />
+    <ClInclude Include="Utils\Utils.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Utils\encrypts\CryptoPP\rdrand.asm" />
+    <None Include="Utils\encrypts\CryptoPP\rdseed.asm" />
+    <None Include="Utils\encrypts\CryptoPP\x64dll.asm" />
+    <None Include="Utils\encrypts\CryptoPP\x64masm.asm" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
